@@ -25,7 +25,7 @@ npm install -g et-util-logger
 ```
 var log = require("et-util-logger");
 
-// 初始化Logger实例的时候传入默认的日志级别
+// 初始化Logger实例的时候传入默认的日志级别，不传默认是all
 var logger = new log.Logger(log.Level.ALL);
 
 // 代码中调用，输出警告信息，因为此时的level是all，意味着打印所有信息
