@@ -1,9 +1,9 @@
 {
   "name": "et-util-logger",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "utillities for print colorful information in terminal",
   "main": "index.js",
-  "engine": {
+  "engines": {
     "node": ">=1.0.0"
   },
   "scripts": {
