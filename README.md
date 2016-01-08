@@ -4,8 +4,14 @@
 提炼几个常用行为用于统一输出。另外，定制了工程化工具的logo。关于控制台颜色输出，更多
 [看这里](http://blog.soulserv.net/terminal-friendly-application-with-node-js/)。
 ## 安装
+全局安装
 ```
 npm install -g et-util-logger
+```
+
+本地安装
+```
+npm install et-util-logger
 ```
 ## 使用
 日志的输出分为6个等级，通过Level来表示。见下表
